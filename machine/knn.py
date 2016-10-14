@@ -27,6 +27,7 @@ def kNNClassify(newInput, dataSet, labels, k):
     distance = squaredDist ** 0.5
     print(distance)
     print("dddd")
+
     ## step 2: sort the distance
     # argsort() returns the indices that would sort an array in a ascending order
     sortedDistIndices = argsort(distance)
